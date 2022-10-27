@@ -41,7 +41,7 @@ export function isIphoneX() {
           || (dimen.height === 926 || dimen.width === 926)
           || (dimen.height === 852 || dimen.width === 852) // iPhone 14 Pro
           || (dimen.height === 932 || dimen.width === 932) // iPhone 14 Pro Max
-          || (dimen.height === 693 || dimen.width === 693) // iPhone 12 mini 
+          || (dimen.height === 693 || dimen.width === 693) // iPhone 12 mini (Dimensions React-native function return 320 x 693 instead of 375 x 812))
           )
     );
 }
